@@ -123,6 +123,7 @@ height: 80px;
 main {
     width: 1100px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .main {
     align-items: center;
@@ -200,6 +201,56 @@ letter-spacing: 1.8%;
 text-align: left;
 }
 .fourth-see-more {
-    /* border: 2px solid aqua; */
+    margin-left: 960px;
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+/* fifth section styles */
+.fifth-section {
+    width: 1200px;
+    margin: 0 auto;
+    gap: 96px;
+    margin-bottom: 100px;
+}
+.fifth-title {
+    width: 610px;
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 2.2rem;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+margin-bottom: 5px;
+}
+.fifth-subtitle {
+    width: 501px;
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.fifth-btn {
+    width: 155px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    background: rgb(224, 44, 109);
+    border: none;
+    color: white;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
 
 }
