@@ -25,7 +25,7 @@ a {
 .first-title {
     color: rgb(58, 58, 58);
 font-family: Poppins;
-font-size: 24px;
+font-size: 1.5rem;
 font-weight: 700;
 line-height: 36px;
 letter-spacing: 0px;
@@ -35,7 +35,7 @@ text-align: left;
 .first-list {
     color: rgb(58, 58, 58);
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0px;
@@ -60,7 +60,7 @@ height: 414px;
     width: 582px;
     color: rgb(58, 58, 58);
 font-family: Poppins;
-font-size: 52px;
+font-size: 3rem;
 font-weight: 700;
 line-height: 70px;
 letter-spacing: 0px;
@@ -70,7 +70,7 @@ text-align: left;
     width: 505px;
     color: rgb(58, 58, 58);
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0px;
@@ -86,7 +86,7 @@ text-align: left;
 
     color: rgb(255, 255, 255);
 font-family: Poppins;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 700;
 line-height: 24px;
 letter-spacing: 0px;
@@ -118,3 +118,88 @@ margin-top: 211px;
     width: 85px;
 height: 80px;
 } */
+
+/* main section styles  */
+main {
+    width: 1100px;
+    margin: 0 auto;
+}
+.main {
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-title {
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+/* fourth section style  */
+.fourth-section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 30px; */
+}
+.fourth-container {
+    border-radius: 5px;
+
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+/* background: rgb(255, 255, 255); */
+width: 300px;
+height: 470px;
+padding: 14px;
+margin-bottom: 30px;
+}
+.fourth-container img {
+    width: 300px;
+}
+.fourth-title {
+    width: 151px;
+    color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 5px;
+margin-bottom: 2px;
+}
+.fourth-money {
+    width: 82px;
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 2px;
+margin-bottom: 2px;
+
+}
+.fourth-star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0px;
+}
+.fourth-des {
+    color: rgb(120, 120, 133);
+    width: 196px;
+font-family: Inter;
+font-size: .8rem;
+font-weight: 700;
+line-height: 143%;
+letter-spacing: 1.8%;
+text-align: left;
+}
+.fourth-see-more {
+    /* border: 2px solid aqua; */
+
+}
